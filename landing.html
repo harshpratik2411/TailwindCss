@@ -153,97 +153,167 @@
                 </div>
             </section>
     </section>
-
     <section id="catalogueSection" class="min-h-screen bg-fuchsia-200 py-20 text-center">
         <h2 class="text-3xl font-semibold">Catalogue</h2>
         <p>Explore our wide range of mobile phones and accessories.</p>
-    </head>
-    <body class="bg-gray-100 font-sans">
-            <main class="container mx-auto my-8 px-4 ">
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"> 
-           
-       <!--- Mobile Phone Card 1  -->
-          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <!-- <img src="https://via.placeholder.com/300" alt="Phone 1" class="w-full h-56 object-cover"> -->
-             <img src="samsung.jpg" class="h-40" alt="">
+    
+    <header class="bg-blue-600 text-white text-center py-4">
+        <h1 class="text-3xl font-semibold">Mobile Phone Catalogue</h1>
+      </header> 
+    
+      <!-- Catalogue Section -->
+      <main class="container mx-auto my-8 px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+          <!-- Product A -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden product-card" data-name="Product A" data-price="799" data-image="samsung.jpg ">
+            <img src="samsung.jpg" class="h-40 " alt="Product A">
             <div class="p-4">
-              <h2 class="text-xl font-semibold text-gray-800">Samsung Galaxy S21</h2>
-              <p class="text-gray-600 mt-2">Latest flagship phone with 5G connectivity and stunning display.</p>
+              <h2 class="text-xl font-semibold text-gray-800">Product A</h2>
+              <p class="text-gray-600 mt-2">Description for Product A.</p>
               <div class="flex justify-between items-center mt-4">
                 <span class="text-lg font-bold text-blue-600">$799</span>
-                <button class="bg-green-600 text-white px-2 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button> 
-                 <div> 
-                <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                <div class="flex space-x-2">
+                  <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                  <button class="buy-now bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
                 </div>
               </div>
             </div>
           </div>
     
-          <!-- Mobile Phone Card 2 -->
-          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <!-- <img src="https://via.placeholder.com/300" alt="Phone 2" class="w-full h-56 object-cover"> -->
-            <img src="bg2.png" class="h-40" alt="">
+          <!-- Product B -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden product-card" data-name="Product B" data-price="999" data-image="bg2.png">
+            <img src="bg2.png" class="h-40 w-full object-cover" alt="Product B">
             <div class="p-4">
-              <h2 class="text-xl font-semibold text-gray-800">iPhone 13 Pro</h2>
-              <p class="text-gray-600 mt-2">Apple's latest model with a powerful A15 Bionic chip and triple-camera setup.</p>
+              <h2 class="text-xl font-semibold text-gray-800">Product B</h2>
+              <p class="text-gray-600 mt-2">Description for Product B.</p>
               <div class="flex justify-between items-center mt-4">
                 <span class="text-lg font-bold text-blue-600">$999</span>
-                <button class="bg-green-600 text-white px-2 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
-                <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
-              </div>
-            </div>
-          </div> 
-          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <!-- <img src="https://via.placeholder.com/300" alt="Phone 3" class="w-full h-56 object-cover"> -->
-            <img src="oneplus.png" class="h-40" alt="">
-            <div class="p-4">
-              <h2 class="text-xl font-semibold text-gray-800">OnePlus 9 Pro</h2>
-              <p class="text-gray-600 mt-2">High performance with a smooth display and powerful camera setup.</p>
-              <div class="flex justify-between items-center mt-4">
-                <span class="text-lg font-bold text-blue-600">$899</span>
-                <button class="bg-green-600 text-white px-2 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
-                <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                <div class="flex space-x-2">
+                  <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                  <button class="buy-now bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
     
-          <!-- Mobile Phone Card 4 -->
-          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <!-- <img src="https://via.placeholder.com/300" alt="Phone 4" class="w-full h-56 object-cover"> -->
-            <img src="bg2.png" class="h-40" alt="">
+          <!-- Product C -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden product-card" data-name="Product C" data-price="899" data-image="oneplus.png">
+            <img src="oneplus.png" class="h-40 w-full object-cover" alt="Product C">
             <div class="p-4">
-              <h2 class="text-xl font-semibold text-gray-800">i phone 15 pro</h2>
-              <p class="text-gray-600 mt-2">Android's flagship with great AI-driven camera features.</p>
-              <div  class="flex justify-between items-center mt-4">
-                <span class="text-lg font-bold text-blue-600">$699</span> 
-                <button class="buy-now bg-green-600 text-white px-2 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
-                <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+              <h2 class="text-xl font-semibold text-gray-800">Product C</h2>
+              <p class="text-gray-600 mt-2">Description for Product C.</p>
+              <div class="flex justify-between items-center mt-4">
+                <span class="text-lg font-bold text-blue-600">$899</span>
+                <div class="flex space-x-2">
+                  <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                  <button class="buy-now bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
+                </div>
+              </div>
             </div>
+          </div>
+    
+          <!-- Product D -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden product-card" data-name="Product D" data-price="699" data-image="bg2.png"> 
+            <img src="bg2.png" class="h-40 w-full object-cover" alt="Product D">
+            <div class="p-4">
+              <h2 class="text-xl font-semibold text-gray-800">Product D</h2>
+              <p class="text-gray-600 mt-2">Description for Product D.</p>
+              <div class="flex justify-between items-center mt-4">
+                <span class="text-lg font-bold text-blue-600">$699</span>
+                <div class="flex space-x-2">
+                  <button class="add-to-cart bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                  <button class="buy-now bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">Buy Now</button>
+                </div>
               </div>
+            </div>
+          </div>
+    
+        </div>
+    
+        <!-- Cart Section -->
+        <div class="mt-8 bg-white shadow-lg rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-gray-800">Your Cart</h2>
+          <div id="cart-items" class="mt-4 space-y-2">
+            <!-- Cart items will be listed here -->
+          </div>
+          <div class="flex justify-between mt-4">
+            <span class="text-lg font-bold text-gray-800">Total:</span>
+            <span id="cart-total" class="text-lg font-bold text-blue-600">$0</span>
+          </div>
+        </div>
+      </main>
+    
+      <script>
+        // Cart storage
+        const cart = [];
+    
+        // Update Cart UI
+        function updateCart() {
+          const cartItemsContainer = document.getElementById('cart-items');
+          const cartTotal = document.getElementById('cart-total');
+    
+          // Clear previous cart items
+          cartItemsContainer.innerHTML = '';
+    
+          let total = 0;
+          cart.forEach((item, index) => {
+            const itemElement = document.createElement('div');
+            itemElement.classList.add('flex', 'justify-between', 'items-center', 'p-2', 'border-b');
+            itemElement.innerHTML = `
+              <div class="flex items-center">
+                <img src="${item.image}" alt="${item.name}" class="w-12 h-12 object-cover rounded-full mr-4">
+                <span class="text-gray-800">${item.name}</span>
               </div>
-            </div> 
-        
-            <div class=" bg-purple-200 h-80 "></div>
-            <!-- Header Section -->
- <div class="bg-blue-600 text-white text-center py-4">
-   <h1 class="text-3xl font-semibold">Mobile Phone Catalogue</h1>
- </div>
+              <span class="text-gray-600">$${item.price}</span>
+              <button onclick="removeFromCart(${index})" class="text-red-500 hover:text-red-700">Remove</button>
+            `;
+            cartItemsContainer.appendChild(itemElement);
+            total += parseFloat(item.price);
+          });
+    
+          cartTotal.textContent = `$${total.toFixed(2)}`;
+        }
+    
+        // Add product to cart
+        function addToCart(productName, productPrice, productImage) {
+          cart.push({ name: productName, price: productPrice, image: productImage });
+          updateCart();
+        }
+    
+        // Remove product from cart
+        function removeFromCart(index) {
+          cart.splice(index, 1);
+          updateCart();
+        }
+    
+        // Handle "Add to Cart" button click
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        addToCartButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            const productCard = button.closest('.product-card');
+            const productName = productCard.getAttribute('data-name');
+            const productPrice = productCard.getAttribute('data-price');
+            const productImage = productCard.getAttribute('data-image');
+            addToCart(productName, productPrice, productImage);
+          });
+        });
+    
+        // Handle "Buy Now" button click
+        const buyNowButtons = document.querySelectorAll('.buy-now');
+        buyNowButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            alert('Proceeding to checkout!');
+            // Here you could add checkout functionality, e.g., navigating to a payment page
+          });
+        });
+      </script>
+    
+    </body>
+    </html>
+    
 
-  <div class="mt-6 bg-white shadow-lg rounded-lg p-2">
-   <h2 class="text-xl font-semibold text-gray-800">Your Cart</h2>
-   <div id="cart-items" class="mt-4 space-y-2">
-    //  Cart items will be listed here 
-    </div>
-   <div class="flex justify-between mt-4">
-     <span class="text-lg font-bold text-gray-800">Total:</span>
-     <span id="cart-total" class="text-lg font-bold text-blue-600">$0</span>
-   </div>
- </div>  
-  
-     <section id="aboutSection" class="min-h-screen bg-purple-300 py-20 text-center"> 
-         <h2 class="text-3xl font-semibold"></h2>
-         <body class="bg-gray-50 text-gray-800 font-sans"> 
-
+  </script>
            
               <section class="container mx-auto px-4 py-12"> 
                 <div class="text-center mb-12">
